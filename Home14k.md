@@ -21,21 +21,37 @@ Answer the following questions about the HTTP request and response process.
 
     ```client server architecture```
 
-2. What are the different parts of an HTTP request? 
+2. What are the different parts of an HTTP request?
+
+    ```Request Line, Request Headers, Request Body```
 
 3. Which part of an HTTP request is optional?
 
+    ```Request Body```
+
 4. What are the three parts of an HTTP response?
+
+    ```Headers, Status Line, Body```
 
 5. Which number class of status codes represents errors?
 
+    ```400s range```
+
 6. What are the two most common request methods that a security professional will encounter?
+
+    ```GET and POST request methods```
 
 7. Which type of HTTP request method is used for sending data?
 
+    ```POST Request method```
+
 8. Which part of an HTTP request contains the data being sent to the server?
 
+    ```Request body```
+
 9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
+
+    ```Request body```
 
 #### Using curl
 
@@ -43,13 +59,26 @@ Answer the following questions about `curl`:
 
 10. What are the advantages of using `curl` over the browser?
 
+    ```*Ability to manage HTTP Requests / Responses in a Repeatable , Programmatic way
+*Ability to quickly test HTTP HTTP Requests in away that can be automated
+*Allows ability to make adjustments as the security professional works
+*Ability to support numerous protocols even if a UI is not present```
+
 11. Which `curl` option is used to change the request method?
+
+    ```
 
 12. Which `curl` option is used to set request headers?
 
+    ```
+
 13. Which `curl` option is used to view the response header?
 
+    ```
+
 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
+
+    ```
 
 #### Sessions and Cookies
 
