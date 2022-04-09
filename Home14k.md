@@ -43,15 +43,15 @@ Answer the following questions about the HTTP request and response process.
 
 7. Which type of HTTP request method is used for sending data?
 
-    ```POST Request method```
+    `POST Request Method`
 
 8. Which part of an HTTP request contains the data being sent to the server?
 
-    ```Request body```
+    `Request body`
 
 9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
 
-    ```Request body```
+    `Request body`
 
 #### Using curl
 
@@ -59,10 +59,12 @@ Answer the following questions about `curl`:
 
 10. What are the advantages of using `curl` over the browser?
 
-    ```*Ability to manage HTTP Requests / Responses in a Repeatable , Programmatic way
-*Ability to quickly test HTTP HTTP Requests in away that can be automated
-*Allows ability to make adjustments as the security professional works
-*Ability to support numerous protocols even if a UI is not present```
+    ```
+    *Ability to manage HTTP Requests / Responses in a Repeatable , Programmatic way
+    *Ability to quickly test HTTP HTTP Requests in away that can be automated
+    *Allows ability to make adjustments as the security professional works
+    *Ability to support numerous protocols even if a UI is not present
+    ```
 
 11. Which `curl` option is used to change the request method?
 
