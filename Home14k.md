@@ -19,27 +19,27 @@ Answer the following questions about the HTTP request and response process.
 
 1. What type of architecture does the HTTP request and response process occur in?
 
-    ```client server architecture```
+    `client server architecture`
 
 2. What are the different parts of an HTTP request?
 
-    ```Request Line, Request Headers, Request Body```
+    `Request Line, Request Headers, Request Body`
 
 3. Which part of an HTTP request is optional?
 
-    ```Request Body```
+    `Request Body`
 
 4. What are the three parts of an HTTP response?
 
-    ```Headers, Status Line, Body```
+    `Headers, Status Line, Body`
 
 5. Which number class of status codes represents errors?
 
-    ```400s range```
+    `400s range`
 
 6. What are the two most common request methods that a security professional will encounter?
 
-    ```GET and POST request methods```
+    `GET and POST request methods`
 
 7. Which type of HTTP request method is used for sending data?
 
