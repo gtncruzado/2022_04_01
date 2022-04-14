@@ -90,7 +90,7 @@ Answer the following questions about sessions and cookies:
 
 15. Which response header sends a cookie to the client?
 
-    ```HTTP
+    ```Set-Cookies
     HTTP/1.1 200 OK
     Content-type: text/html
     Set-Cookie: cart=Bob
@@ -102,6 +102,7 @@ Answer the following questions about sessions and cookies:
     GET /cart HTTP/1.1
     Host: www.example.org
     Cookie: cart=Bob
+    'Connection: keep-alive'
     ```
 
 #### Example HTTP Requests and Responses
@@ -125,11 +126,19 @@ username=Barbara&password=password
 
 17. What is the request method?
 
+    `POST`
+
 18. Which header expresses the client's preference for an encrypted response?
+
+    `Upgrade-Insecure-Requests: 1`
 
 19. Does the request have a user session associated with it?
 
+    `No the Session is not restablished yet`
+
 20. What kind of data is being sent from this request body?
+
+    `Login credentials`
 
 **HTTP Response**
 
@@ -152,13 +161,23 @@ X-XSS-Protection: 1; mode=block
 
 21. What is the response status code?
 
+    `200`
+
 22. What web server is handling this HTTP response?
+
+    `Apache`
 
 23. Does this response have a user session associated to it?
 
+    `Yes, Session-ID=5`
+
 24. What kind of content is likely to be in the [page content] response body?
 
+    Detail of the Page configuration
+
 25. If your class covered security headers, what security request headers have been included?
+
+    `Strict-Transport-Security: max-age=31536000; includeSubDomains`
 
 #### Monoliths and Microservices
 
@@ -166,9 +185,15 @@ Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
 
+    `services`
+
 27. What is a service that writes to a database and communicates to other services?
 
+    `APIs`
+
 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
+
+    `Load balancer`
 
 #### Deploying and Testing a Container Set
 
@@ -176,15 +201,27 @@ Answer the following questions about multi-container deployment:
 
 29. What tool can be used to deploy multiple containers at once?
 
+    `Docker`
+
 30. What kind of file format is required for us to deploy a container set?
+
+    `".yml" or "YAML" formatting"`
 
 #### Databases
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
 
+    `SELECT column_name * FROM customers_table;`
+
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
 
+    `INSeRT into table_name (column_1, column_2, column_3) VALUE (value_1, 'value_2', value_3);`
+
 33. Why would we never run `DELETE FROM <table-name>;` by itself?
+
+    `it will delete the entire table`
+    `Better to put it like the following and specify the row name with WHERE parameter`
+    `DELETE from table_name WHERE column_x=parameter_label`
 
 ---
 
