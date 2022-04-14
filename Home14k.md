@@ -68,19 +68,19 @@ Answer the following questions about `curl`:
 
 11. Which `curl` option is used to change the request method?
 
-    ```
+    `-X`
 
 12. Which `curl` option is used to set request headers?
 
-    ```
+    `-H`
 
 13. Which `curl` option is used to view the response header?
 
-    ```
+    `-I`
 
 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
 
-    ```
+    `Options`
 
 #### Sessions and Cookies
 
