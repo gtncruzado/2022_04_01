@@ -57,6 +57,7 @@ Altoro Mutual wants to ensure that private information that is unavailable on th
 
 - How can this information be helpful to an attacker?
 
+ `can be used by attackers for email phishing`
 
 #### Step 2: DNS and Domain Discovery
 
